@@ -241,6 +241,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, readwrite, class) PFLogLevel logLevel;
 
++ (void)resetParseManager;
+
+
 @end
 
 ///--------------------------------------
@@ -253,3 +256,4 @@ NS_ASSUME_NONNULL_BEGIN
 extern NSString *const _Nonnull PFParseInitializeDidCompleteNotification;
 
 NS_ASSUME_NONNULL_END
+
